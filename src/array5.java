@@ -11,11 +11,11 @@ public class array5 {
         for (int i = 0; i < estadísticas.length; i++) {
             System.out.print(estadísticas[i] + ": ");
             if (ferrari[i] > lambo[i]) {
-                System.out.println("🏎️ Ferrari gana (" + ferrari[i] + " vs " + lambo[i] + ")");
+                System.out.println(" Ferrari gana (" + ferrari[i] + " vs " + lambo[i] + ")");
             } else if (ferrari[i] < lambo[i]) {
-                System.out.println("🚗 Lamborghini gana (" + lambo[i] + " vs " + ferrari[i] + ")");
+                System.out.println("bLamborghini gana (" + lambo[i] + " vs " + ferrari[i] + ")");
             } else {
-                System.out.println("🤝 Empate (" + ferrari[i] + ")");
+                System.out.println(" Empate (" + ferrari[i] + ")");
             }
         }
     }

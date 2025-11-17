@@ -18,7 +18,7 @@ public class array3 {
             }
         }
         if (encontrada) {
-            System.out.println("La pelicula se ha encontrado");
+            System.out.println("La pelicula se ha encontrado, ¡Has escogido la mejor!");
         } else {
             System.out.println("La pelicula no se ha encontrado");
         }
